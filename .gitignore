@@ -1,3 +1,6 @@
+# MacOs trash
+.DS_Store
+
 # Prerequisites
 *.d
 
