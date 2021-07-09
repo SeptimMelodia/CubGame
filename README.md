@@ -26,30 +26,31 @@ This project’s objectives are similar to all this first year’s objectives: R
     * Except for the map, each type of information from an element can be separated by one or more space(s).
     * The map must be parsed as it looks in the file. Spaces are a valid part of the map and are up to you to handle. You must be able to parse any kind of map, as long as it respects the rules of the map.
     * Each element (except the map) firsts information is the type identifier (composed by one or two character(s)), followed by all specific informations for each object in a strict order such as :
-    1. _North texture:_
-    2. **NO ./path_to_the_north_texture**
-    2. · identifier: **NO**
-    2. · path to the north texure
-    1. _South texture:_
-    2. **SO ./path_to_the_south_texture**
-    2. · identifier: **SO**
-    2. · path to the south texure
-             _West texture:_
-            **WE ./path_to_the_west_texture**
-            · identifier: **WE**
+    
+            North texture:
+            NO ./path_to_the_north_texture
+            · identifier: NO
+            · path to the north texure
+            South texture:
+            SO ./path_to_the_south_texture
+            · identifier: SO
+            · path to the south texure
+            West texture:
+            WE ./path_to_the_west_texture
+            · identifier: WE
             · path to the west texure
-             _East texture:_
-            **EA ./path_to_the_east_texture**
-            · identifier: **EA**
+            East texture:
+            EA ./path_to_the_east_texture
+            · identifier: EA
             · path to the east texure
-             _Floor color:_
-            **F 220,100,0**
-            · identifier: **F**
-            · R,G,B colors in range [0,255]: **0, 255, 255**
-            . _Ceilling color:_
-            **C 225,30,0**
-            · identifier: **C**
-            · R,G,B colors in range [0,255]: **0, 255, 255**
+            Floor color:
+            F 220,100,0
+            · identifier: F
+            · R,G,B colors in range [0,255]: 0, 255, 255
+            Ceilling color:
+            C 225,30,0
+            · identifier: C
+            · R,G,B colors in range [0,255]: 0, 255, 255
     * Example of the mandatory part with a minimalist .cub scene:
     
             NO ./path_to_the_north_texture
