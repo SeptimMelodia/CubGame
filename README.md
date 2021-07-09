@@ -10,12 +10,14 @@ This project’s objectives are similar to all this first year’s objectives: R
 • Display different wall textures (the choice is yours) that vary depending on which side the wall is facing (North, South, East, West).
 
 • Your program must be able to set the floor and ceiling colors to two different ones.
+
 • The program displays the image in a window and respects the following rules:
     ◦ The left and right arrow keys of the keyboard must allow you to look left and right in the maze.
     ◦ The W, A, S, and D keys must allow you to move the point of view through the maze.
     ◦ Pressing ESC must close the window and quit the program cleanly.
     ◦ Clicking on the red cross on the window’s frame must close the window and quit the program cleanly.
     ◦ The use of images of the minilibX is strongly recommended.
+    
 • Your program must take as a first argument a scene description file with the .cub extension.
     ◦ The map must be composed of only 6 possible characters: 0 for an empty space, 1 for a wall, and N,S,E or W for the player’s start position and spawning orientation.
     ◦ The map must be closed/surrounded by walls, if not the program must return an error.
