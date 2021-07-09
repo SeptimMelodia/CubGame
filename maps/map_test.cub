@@ -1,4 +1,4 @@
-R 400 840
+R 1200 840
 NO ./texture/WALL16.xpm
 SO ./texture/WALL32.xpm
 WE ./texture/WALL22.xpm
