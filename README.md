@@ -26,31 +26,31 @@ This project’s objectives are similar to all this first year’s objectives: R
     * Except for the map, each type of information from an element can be separated by one or more space(s).
     * The map must be parsed as it looks in the file. Spaces are a valid part of the map and are up to you to handle. You must be able to parse any kind of map, as long as it respects the rules of the map.
     * Each element (except the map) firsts information is the type identifier (composed by one or two character(s)), followed by all specific informations for each object in a strict order such as :
-            _North texture:_
+            1. _North texture:_
             **NO ./path_to_the_north_texture**
             · identifier: **NO**
             · path to the north texure
-            _South texture:_
+            2. _South texture:_
             **SO ./path_to_the_south_texture**
             · identifier: **SO**
             · path to the south texure
-            _West texture:_
+            3. _West texture:_
             **WE ./path_to_the_west_texture**
             · identifier: **WE**
             · path to the west texure
-            _East texture:_
+            4. _East texture:_
             **EA ./path_to_the_east_texture**
             · identifier: **EA**
             · path to the east texure
-            _Floor color:_
+            5. _Floor color:_
             **F 220,100,0**
             · identifier: **F**
             · R,G,B colors in range [0,255]: **0, 255, 255**
-            _Ceilling color:_
+            6. _Ceilling color:_
             **C 225,30,0**
             · identifier: **C**
             · R,G,B colors in range [0,255]: **0, 255, 255**
-    ◦ Example of the mandatory part with a minimalist .cub scene:
+    * Example of the mandatory part with a minimalist .cub scene:
             
             NO ./path_to_the_north_texture
             SO ./path_to_the_south_texture
